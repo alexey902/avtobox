@@ -16,7 +16,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'TaskController@index');
 Route::get  ('request_form', 'TaskController@requestform');
-Route::post  ('request_form', 'TaskController@validate_mail');
+Route::get  ('/succes', 'TaskController@succesindex');
+
+Route::post  ('request_form', 'TaskController@store');
 Auth::routes();
 
 Route::get('/home', 'TaskController@index');
