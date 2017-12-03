@@ -22,6 +22,12 @@ class TaskController extends Controller
     public function succesindex () {
         return view('succes');
     }
+    public function regulations () {
+        return view('regulations');
+    }
+    public function agreement () {
+        return view('agreement');
+    }
 
     public function index() {
         $message="lets go";

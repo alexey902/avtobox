@@ -1,14 +1,12 @@
 @extends('layouts.appauto')
 
 @section('acontent')
-<div class="container-fluid">
 
 
         {{--<h1>{{$message}}</h1>--}}
-    {{--</div>--}}
 
     <!-- Static navbar -->
-    <nav class="navbar navbar-inverse navbar-static-top" id="forzeromargin">
+    <nav class="navbar navbar-inverse navbar-static-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -42,7 +40,8 @@
 
 
     {{-- Top picture--}}
-<div class="jumbotron">
+<div class=""  id="forzeromargin">
+<div class="jumbotron center-block">
     <div class="container-fluid">
         <h1>Мы делаем цены ниже</h1>
         <p class="description">Автозапчасти под заказ. Доставка от 1 дня. Гарантия</p>
@@ -50,7 +49,7 @@
 
     </div>
 </div>
-
+</div>
 
 <!-- Marketing messaging and featurettes
 ================================================== -->
@@ -95,15 +94,17 @@
         </div>
         <div class="col-md-5"></div>
     </div>
+
 </div>
     <!-- /END THE FEATURETTES -->
 <!--Google Maps      -->
-            <h3>Google Maps</h3>
-            <div id="map"></div>
+
+
+            <div class="center-block" id="map"></div>
              <div class="container" id="mcontact">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>  Наш адрес: г. Нижнекамск, ТЦ Ювэна, ул. Мира 61Б</p>
+                        <p>  Наш адрес: г. Нижнекамск, ТЦ Ювэна, ул. Мира 63Б</p>
                     </div>
                     <div class="col-md-6">
 
@@ -113,8 +114,8 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 text-center" id="firstcolfoot">
-                        <p><img src="{{ asset('images/thumbs/whats_up_thimb.jpg') }}">What's up: 8-917-277-14-76</p>
-                        <p><img src=" {{ asset('images/thumbs/phone_thumb.jpg') }}">  Телефон: 8-917-277-14-76</p>
+                        <p><img src="{{ asset('images/thumbs/whats_up_thimb.jpg') }}">What's up: 8-917-394-04-66</p>
+                        <p><img src=" {{ asset('images/thumbs/phone_thumb.jpg') }}">  Телефон: 8-917-394-04-66</p>
                     </div>
                     <div class="col-md-6 text-center" id="seccolfoot">
                         <p><img src="{{ asset('images/thumbs/vk_thumb.jpg') }}" > <a href="https://vk.com/avtoboxnk" target="_blank">  Вконтакте</a></p>
@@ -122,7 +123,7 @@
                     </div>
                 </div>
             </div>
-</div>
+
 @endsection
 
 

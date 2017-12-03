@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="нижнекамск автозапчасти дешево автобокс под заказ">
+    <meta name="description" content="нижнекамск автозапчасти дешево автобокс заказ рулевая рейка">
     <meta name="author" content="нижнекамск автозапчасти">
+    <link rel="shortcut icon" href="{{ asset('images/avtobox_logo_32_2.png') }}" type="image/png">
 
     <link rel="icon" href="{{ asset('favicon.ico') }}">
     <!-- Styles -->
@@ -34,8 +35,7 @@
 
 
 
-<div id="app">
-
+<div class="container-fluid" id="app">
     @yield('acontent')
 </div>
 
@@ -50,9 +50,9 @@
 <script src="{{ asset('js/ie10-viewport-bug-workaround.js') }}"></script>
 <script>
 function initMap() {
-var uluru = {lat: 55.644247, lng: 51.804897};
+var uluru = {lat: 55.644288, lng: 51.804878};
 var map = new google.maps.Map(document.getElementById('map'), {
-zoom: 15,
+zoom: 17,
 center: uluru
 });
 
@@ -65,27 +65,20 @@ var contentString = '<div id="content">'+
 'автозапчастей, жидкостей, и аксессуаров для авто. '+
 'Наши клиенты получают самые выгодные цены в городе'+
 '</p>'+
-'<p>Адрес: г.Нижнекамск, ТЦ Ювэна, ул.Мира 61Б</p>'+
+'<p>Адрес: г.Нижнекамск, ТЦ Ювэна, проспект Мира 63Б</p>'+
 '</div>'+
 '</div>';
 
 var infowindow = new google.maps.InfoWindow({
 content: contentString
 });
-var iconurl={url:'{{ asset('images/thumbs/sedan_infowindow.png') }}',
-size: new google.maps.Size(55, 65),
-origin: new google.maps.Point(0,0),
-anchor: new google.maps.Point(0, 0)
-
-};
-
-
+var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
 var marker = new google.maps.Marker({
 position: uluru,
 map: map,
 title:'Магазин Автобокс',
 label:'Магазин Автобокс',
-icon: iconurl
+icon: image
 });
 marker.addListener('click', function() {
 infowindow.open(map, marker);
@@ -94,9 +87,9 @@ infowindow.open(map, marker);
 }
 </script>
 
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaLgb1teJ3OGXASnl7FxXEae8AJCSpixQ&callback=initMap"></script>
 
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaLgb1teJ3OGXASnl7FxXEae8AJCSpixQ&callback=initMap">
-</script>
+
 </body>
 </html>
 

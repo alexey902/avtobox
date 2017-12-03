@@ -1,39 +1,39 @@
 @extends('layouts.appauto')
 
-<nav class="navbar navbar-inverse navbar-static-top" id="forzeromargin">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="{{url('/')}}">Автобокс</a>
-        </div>
-
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav pull-right">
-                <li class="active"><a href="{{url('/#production')}}">Продукция</a></li>
-
-                <li><a href="{{url('/#mcontact')}}">Контакты</a></li>
-                <li><a href="{{url('/#mcontact')}}">Как нас найти</a></li>
-
-                <li class="dropdown" >
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Напишите нам <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="{{url('request_form')}}">Оставить запрос</a></li>
-
-                    </ul>
-                </li>
-            </ul>
-
-        </div><!--/.nav-collapse -->
-    </div>
-</nav>
-
 
 @section('acontent')
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="{{url('/')}}">Автобокс</a>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav pull-right">
+                    <li class="active"><a href="{{url('/#production')}}">Продукция</a></li>
+
+                    <li><a href="{{url('/#mcontact')}}">Контакты</a></li>
+                    <li><a href="{{url('/#mcontact')}}">Как нас найти</a></li>
+
+                    <li class="dropdown" >
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Напишите нам <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{url('request_form')}}">Оставить запрос</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
     @if ($errors->any())
         <div class="alert alert-danger formargin">
             <ul>
@@ -44,7 +44,7 @@
         </div>
     @endif
 
-    <div class="container-fluid">
+    <div class="container-fluid centerrequest">
        <div class="row">
 
        <div class='text-center'>
@@ -142,8 +142,12 @@
                         @endif
                     </ul>
                 </div>
+
                 <div class="form-group">
                     {!!Form::submit('Отправить заявку',['class'=>'btn btn-primary form-control'])  !!}
+                </div>
+                <div >
+                    <p>Нажимая на кнопку вы принимаете условия <a href="{{url('regulations')}}">Положения</a> и <a href="{{url('agreement')}}">Соглашения</a> на обработку персональных данных </p>
                 </div>
 
         </div>

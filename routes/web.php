@@ -16,7 +16,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'TaskController@index');
 Route::get  ('request_form', 'TaskController@requestform');
-Route::get  ('/succes', 'TaskController@succesindex');
+
+
+
+Route::get  ('succes', 'TaskController@succesindex');
+Route::get  ('regulations', 'TaskController@regulations');
+Route::get  ('agreement', 'TaskController@agreement');
+
+
 
 Route::post  ('request_form', 'TaskController@store');
 Auth::routes();
