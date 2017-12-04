@@ -10,7 +10,7 @@
 
     <link rel="icon" href="{{ asset('favicon_16.ico') }}">
     <meta name='wmail-verification' content='01f8585478bcf13b645fccb1ddf3688b'/>
-    <meta name="google-site-verification" content="=ps-IzpPoW46eKEthmkisAIqJC6Hg1nobHDaUnAmdmsk"/>
+    <meta name="google-site-verification" content="ps-IzpPoW46eKEthmkisAIqJC6Hg1nobHDaUnAmdmsk"/>
         <!-- Styles -->
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
