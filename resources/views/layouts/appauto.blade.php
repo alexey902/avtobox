@@ -7,10 +7,11 @@
 
     <meta name="description" content="нижнекамск автозапчасти дешево автобокс заказ рулевая рейка">
     <meta name="author" content="нижнекамск автозапчасти">
-    <link rel="shortcut icon" href="{{ asset('images/avtobox_logo_32_2.png') }}" type="image/png">
 
-    <link rel="icon" href="{{ asset('favicon.ico') }}">
-    <!-- Styles -->
+    <link rel="icon" href="{{ asset('favicon_16.ico') }}">
+    <meta name='wmail-verification' content='01f8585478bcf13b645fccb1ddf3688b'/>
+    <meta name="google-site-verification" content="=ps-IzpPoW46eKEthmkisAIqJC6Hg1nobHDaUnAmdmsk"/>
+        <!-- Styles -->
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="{{ asset('css/ie10-viewport-bug-workaround.css') }}" rel="stylesheet">
@@ -72,7 +73,7 @@ var contentString = '<div id="content">'+
 var infowindow = new google.maps.InfoWindow({
 content: contentString
 });
-var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
+var image ="{{asset('images/yellow_labell.png')}}";
 var marker = new google.maps.Marker({
 position: uluru,
 map: map,
@@ -89,7 +90,40 @@ infowindow.open(map, marker);
 
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaLgb1teJ3OGXASnl7FxXEae8AJCSpixQ&callback=initMap"></script>
 
+<!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.ru/stat/?id=46891059&amp;from=informer"
+   target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/46891059/1_0_EFEFEFFF_EFEFEFFF_0_uniques"
+                                       style="width:80px; height:15px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (уникальные посетители)" class="ym-advanced-informer" data-cid="46891059" data-lang="ru" /></a>
+<!-- /Yandex.Metrika informer -->
 
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter46891059 = new Ya.Metrika({
+                    id:46891059,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/46891059" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 </body>
 </html>
 
