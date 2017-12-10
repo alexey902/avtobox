@@ -56,7 +56,155 @@
 <!-- Wrap the rest of the page in another container to center all the content. -->
 
 <div class="container-fluid marketing" id="production">
+    {{--   Carousel for avtobrends     --}}
+<h2 class="text-center">Лучшая цена на подлокотники для различных марок автомобилей</h2>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
 
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="row">
+                    <div class="col-xs-6 col-md-3">
+                        <div class="thumbnail">
+                            <img data-src="holder.js/100%x180" alt="Шевроле Круз" src="{{ asset('images/Podl_th/CH-CRUZE_th.jpg') }}">
+                            <div class="caption text-center">
+                                 <h5>Шевроле Круз - 1800 руб.</h5>
+                                 <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="thumbnail">
+                            <img data-src="holder.js/100%x180" alt="Шевроле Лачетти" src="{{ asset('images/Podl_th/CH-LACH_th1.jpg')}}">
+                            <div class="caption text-center">
+                                <h5>Шевроле Лачетти - 1850 руб.</h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="thumbnail">
+                            <img data-src="holder.js/100%x180" alt="Дэу Нексия" src="{{ asset('images/Podl_th/Dew_Nex_th1.jpg')}}">
+                            <div class="caption text-center">
+                                <h5>Деу Нексиа - 1780 руб.</h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="thumbnail">
+                            <img data-src="holder.js/100%x180" alt="Форд Фокус" src="{{ asset('images/Podl_th/FORD-FOCUS-III-th.jpg')}}">
+                            <div class="caption text-center">
+                                <h5>Форд Фокус - 1800 руб.</h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    <div class="col-xs-6 col-md-3">
+                        <div class="thumbnail">
+                            <img data-src="holder.js/100%x180" alt="Хендай Солярис" src="{{ asset('images/Podl_th/Hyu-Sol_th.jpg') }}">
+                            <div class="caption text-center">
+                                <h5>Хёндай Соларис - 1910 руб.</h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div href="#" class="thumbnail">
+                            <img data-src="holder.js/100%x180" alt="Лада Калина" src="{{ asset('images/Podl_th/Lada-Kal_th.jpg')}}">
+                            <div class="caption text-center">
+                                <h5>Лада Калина - 1850 руб.</h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div href="#" class="thumbnail">
+                            <img data-src="holder.js/100%x180" alt="Лада Веста" src="{{ asset('images/Podl_th/Lada-Vesta_th.jpg')}}">
+                            <div class="caption text-center">
+                                <h5>Лада Веста - 1880 руб.</h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div href="#" class="thumbnail">
+                            <img data-src="holder.js/100%x180" alt="Лада X-Ray" src="{{ asset('images/Podl_th/Lada-XRAY-th.jpg')}}">
+                            <div class="caption text-center">
+                                <h5>Лада X-Ray - 1850 руб.</h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    <div class="col-xs-6 col-md-3">
+                        <div class="thumbnail">
+                            <img data-src="holder.js/100%x180" alt="Опель Астра" src="{{ asset('images/Podl_th/OPEL-ASTRA-G_th.jpg') }}">
+                            <div class="caption text-center">
+                                <h5>Опель Астра - 1800 руб.</h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="thumbnail">
+                            <img data-src="holder.js/100%x180" alt="Рено Логан" src="{{ asset('images/Podl_th/Renault-Logan-II_th.jpg')}}">
+                            <div class="caption text-center">
+                                <h5>Рено Логан - 1840 руб.</h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="thumbnail">
+                            <img data-src="holder.js/100%x180" alt="Тойота Авенсис" src="{{ asset('images/Podl_th/TOY-AV.jpg')}}">
+                            <div class="caption text-center">
+                                <h5>Тойота Авенсис - 1900 руб.</h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="thumbnail">
+                            <img data-src="holder.js/100%x180" alt="Шкода Октавиа" src="{{ asset('images/Podl_th/TOY-AV_th2.jpg')}}">
+                            <div class="caption text-center">
+                                <h5>Шкода Октавиа</h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+    <div class="container"><a class="pull-right" href="#" target="_blank">
+            Перейти к выбору подлокотника >>> </a>
+    </div>
     <!-- Three columns of text below the carousel -->
     <div class="row">
         <div class="col-lg-4">
@@ -118,7 +266,7 @@
                         <p><img src=" {{ asset('images/thumbs/phone_thumb.jpg') }}">  Телефон: 8-917-394-04-66</p>
                     </div>
                     <div class="col-md-6 text-center" id="seccolfoot">
-                        <p><img src="{{ asset('images/thumbs/vk_thumb.jpg') }}" > <a href="https://vk.com/avtoboxnk" target="_blank">  Вконтакте</a></p>
+                        <p><img src="{{ asset('images/thumbs/vk_thumb.jpg') }}" > <a href="https://vk.com/avtoboxnk" target="_blank">Вконтакте/avtoboxnk</a></p>
                         <p><img src="{{ asset('images/thumbs/mail_thumb.jpg') }}" >avtoboxnk@yandex.ru</p>
                     </div>
                 </div>

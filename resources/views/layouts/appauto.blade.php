@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="нижнекамск автозапчасти дешево автобокс заказ рулевая рейка">
+    <meta name="description" content="Avtobox.net - Магазин автозапчастей и аксесcуаров для авто. Большой выбор, низкие цены, гарантия. Помощь при выборе качественного производителя">
     <meta name="author" content="нижнекамск автозапчасти">
+    <meta name="keywords" content="подлокотник, шаровая, рулевая рейка, подщипник, опорник, стартер, радиатор, граната, шрус, фильтр, стекло, лобовое, бампер, форд, киа, ваз">
 
     <link rel="icon" href="{{ asset('favicon_16.ico') }}">
     <meta name='wmail-verification' content='01f8585478bcf13b645fccb1ddf3688b'/>

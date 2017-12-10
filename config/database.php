@@ -52,7 +52,7 @@ return [
             'database' => env('DB_DATABASE', 'autopartsdb'),
             'username' => env('DB_USERNAME', 'root'),
             'password' => env('DB_PASSWORD', 'ROWbWVTFilAZ69rt'),
-            'unix_socket' => env('D:/xampp/mysql/mysql.sock', 'D:/xampp/mysql/mysql.sock'),
+            'unix_socket' => env('C:/xampp/mysql/mysql.sock', 'C:/xampp/mysql/mysql.sock'),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
