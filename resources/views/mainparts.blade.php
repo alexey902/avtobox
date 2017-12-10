@@ -267,7 +267,7 @@
                     </div>
                     <div class="col-md-6 text-center" id="seccolfoot">
                         <p><img src="{{ asset('images/thumbs/vk_thumb.jpg') }}" > <a href="https://vk.com/avtoboxnk" target="_blank">Вконтакте/avtoboxnk</a></p>
-                        <p><img src="{{ asset('images/thumbs/mail_thumb.jpg') }}" >avtoboxnk@yandex.ru</p>
+                        <p><img src="{{ asset('images/thumbs/mail_thumb.jpg') }}" >avtoboxnk@mail.ru</p>
                     </div>
                 </div>
             </div>
